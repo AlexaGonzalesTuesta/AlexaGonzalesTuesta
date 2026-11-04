@@ -9,8 +9,8 @@
 <p align="center">
   <a href="mailto:gonza752@purdue.edu"><img src="https://img.shields.io/badge/Email-2f6e62?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://safedesk-agent.onrender.com"><img src="https://img.shields.io/badge/SafeDesk_Demo-1f4f4a?style=for-the-badge&logo=render&logoColor=white" alt="SafeDesk demo" /></a>
-  <a href="https://equipment-parts-integration-app-hrkhgumc6pa6hzh4jxulvq.streamlit.app/"><img src="https://img.shields.io/badge/Parts_Hub_Demo-1f4f4a?style=for-the-badge&logo=streamlit&logoColor=white" alt="Parts Hub demo" /></a>
-  <a href="https://aero-repair-tat-analytics-eb8r3ndycesifmfduzgrsj.streamlit.app/"><img src="https://img.shields.io/badge/TAT_Dashboard-1f4f4a?style=for-the-badge&logo=streamlit&logoColor=white" alt="TAT dashboard" /></a>
+  <a href="https://alexagonzalestuesta.github.io/equipment-parts-integration-hub/"><img src="https://img.shields.io/badge/Parts_Hub_Demo-1f4f4a?style=for-the-badge&logo=githubpages&logoColor=white" alt="Parts Hub demo" /></a>
+  <a href="https://alexagonzalestuesta.github.io/aero-repair-tat-analytics/"><img src="https://img.shields.io/badge/TAT_Dashboard-1f4f4a?style=for-the-badge&logo=githubpages&logoColor=white" alt="TAT dashboard" /></a>
 </p>
 
 <p align="center">
@@ -91,8 +91,8 @@ user:
 | Project | Domain | What it does and what it proved | Repository |
 |---|---|---|---|
 | **SafeDesk Agent** | `AI Agents` `Security` | Bilingual support agent that can issue refunds but can't be talked into fraud. 34/34 evals passed, 0 unsafe actions. | [Explore](https://github.com/AlexaGonzalesTuesta/safedesk-agent) · [Demo](https://safedesk-agent.onrender.com) |
-| **Equipment Parts Integration Hub** | `Integration` `ERP` | Turns a machine fault or web order into a correct ERP parts order with dealer stock reserved. 42 tests traced to 22 requirements. | [Explore](https://github.com/AlexaGonzalesTuesta/equipment-parts-integration-hub) · [Demo](https://equipment-parts-integration-app-hrkhgumc6pa6hzh4jxulvq.streamlit.app/) |
-| **Aero Repair TAT Analytics** | `Analytics` `Aerospace` | Shows where repair time goes and which orders will be late. What-if plan lifts on-time from 62.7% to 76.8%, $3.66M penalties avoided. | [Explore](https://github.com/AlexaGonzalesTuesta/aero-repair-tat-analytics) · [Dashboard](https://aero-repair-tat-analytics-eb8r3ndycesifmfduzgrsj.streamlit.app/) |
+| **Equipment Parts Integration Hub** | `Integration` `ERP` | Turns a machine fault or web order into a correct ERP parts order with dealer stock reserved. 43 tests traced to 22 requirements. | [Explore](https://github.com/AlexaGonzalesTuesta/equipment-parts-integration-hub) · [Demo](https://alexagonzalestuesta.github.io/equipment-parts-integration-hub/) |
+| **Aero Repair TAT Analytics** | `Analytics` `Aerospace` | Shows where repair time goes and which orders will be late. What-if plan lifts on-time from 62.7% to 76.8%, $3.66M penalties avoided. | [Explore](https://github.com/AlexaGonzalesTuesta/aero-repair-tat-analytics) · [Dashboard](https://alexagonzalestuesta.github.io/aero-repair-tat-analytics/) |
 | **Z.T.A.R.K.** | `AI Copilot` `Team` | AI diagnostic copilot for Cummins field technicians, built for the Cummins Challenge, March 2026. | [Explore](https://github.com/th1ru1038/Xtern-Cummins-DreamTeam) |
 
 ---
