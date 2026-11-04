@@ -1,0 +1,24 @@
+name: wake streamlit demos
+
+# Streamlit Community Cloud puts apps to sleep after 12 hours without a visit.
+# This opens each demo in a real browser every 4 hours and clicks the wake button if needed.
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+
+jobs:
+  wake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Playwright and Chromium
+        run: |
+          pip install playwright==1.48.0
+          python -m playwright install --with-deps chromium
+      - name: Wake the demos
+        run: python scripts/wake_streamlit.py
